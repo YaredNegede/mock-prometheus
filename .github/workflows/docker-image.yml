@@ -1,4 +1,4 @@
-            - name: Spring boot image build
+- name: Spring boot image build
   # You may pin to the exact commit or the version.
   # uses: teheidoma/spring-boot-image-build-action@b889de6d56b8e1f817ada049e254b8bb45809f8f
   uses: teheidoma/spring-boot-image-build-action@0.0.3
