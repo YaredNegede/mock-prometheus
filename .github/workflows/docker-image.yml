@@ -1,0 +1,16 @@
+            - name: Spring boot image build
+  # You may pin to the exact commit or the version.
+  # uses: teheidoma/spring-boot-image-build-action@b889de6d56b8e1f817ada049e254b8bb45809f8f
+  uses: teheidoma/spring-boot-image-build-action@0.0.3
+  with:
+    # JDK distribution
+    jdk_dist: # default is 22-graal
+    # registry username
+    registry_username: # optional
+    # registry password
+    registry_password: # optional
+    # registry hostname
+    registry_hostname: # optional, default is docker.io
+    # include commit SHA to image tag
+    include_commit_sha: # optional, default is false
+          
